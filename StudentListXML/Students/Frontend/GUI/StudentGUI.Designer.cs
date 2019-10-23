@@ -1,6 +1,6 @@
 ﻿namespace StudentListXML
 {
-    partial class Form1
+    partial class StudentGUI
     {
         /// <summary>
         ///  Required designer variable.

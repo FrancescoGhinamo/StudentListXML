@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace StudentListXML
 {
-    static class Program
+    static class Launcher
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -17,7 +17,7 @@ namespace StudentListXML
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new StudentGUI());
         }
     }
 }

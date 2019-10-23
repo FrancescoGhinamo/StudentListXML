@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace StudentListXML
 {
-    public partial class Form1 : Form
+    public partial class StudentGUI : Form
     {
-        public Form1()
+        public StudentGUI()
         {
             InitializeComponent();
         }
