@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml;
 
 namespace StudentListXML.Students.Backend.Beam
 {
@@ -16,7 +17,7 @@ namespace StudentListXML.Students.Backend.Beam
             get;
         }
 
-        public string Name
+        public string  Name
         {
             get;
         }
